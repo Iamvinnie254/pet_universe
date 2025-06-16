@@ -1,174 +1,171 @@
-/*  */
+/* Health records */
 
-.nav a{
-    color:#333;
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s ease;
-    padding:20px;
-    margin:0;
-
+.nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  padding: 20px;
+  margin: 0;
 }
-  .sidebar {
-    background-color: #fff;
-    min-height: 100vh;
-  }
-  .pet-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-  .info-card {
-    background: #f8f9fa;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  .section-title {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-weight: 600;
-  }
-  .greetings{
-    text-align: center;
-  }
-  .owner{
-    width: 60px;
-    height: 60px;
-  }
+.sidebar {
+  background-color: #fff;
+  min-height: 100vh;
+}
+.pet-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.info-card {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+.section-title {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.greetings {
+  text-align: center;
+}
+.owner {
+  width: 60px;
+  height: 60px;
+}
 
-
-  /* community screen */
-
+/* community screen */
 
 .hero-section {
-    margin-bottom: 3rem;
-    margin-right: 0;
+  margin-bottom: 3rem;
+  margin-right: 0;
 }
 
 .featured-card {
-    border: none;
-    border-radius: 15px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    overflow: hidden;
-    margin-bottom: 2rem;
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  margin-bottom: 2rem;
 }
 
 .featured-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
-.puppy-img, .cat-food-img {
-    width: 150px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 10px;
+.puppy-img,
+.cat-food-img {
+  width: 150px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .qa-item {
-    background: white;
-    border: 1px solid #e9ecef;
-    border-radius: 10px;
-    padding: 1.2rem;
-    margin-bottom: 1rem;
-    transition: all 0.3s ease;
-    cursor: pointer;
+  background: white;
+  border: 1px solid #e9ecef;
+  border-radius: 10px;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .qa-item:hover {
-    border-color: #667eea;
-    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.1);
+  border-color: #667eea;
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.1);
 }
 
 .reply-count {
-    background: #667eea;
-    color: white;
-    border-radius: 20px;
-    padding: 0.3rem 0.8rem;
-    font-size: 0.85rem;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.3rem;
+  background: #667eea;
+  color: white;
+  border-radius: 20px;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
 }
 
 .new-post-btn {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    border: none;
-    border-radius: 25px;
-    padding: 0.8rem 2rem;
-    color: white;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    z-index: 1000;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 25px;
+  padding: 0.8rem 2rem;
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1000;
 }
 
 .new-post-btn:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
 }
 
 .section-title {
-    color: #2c3e50;
-    font-weight: 700;
-    margin-bottom: 2rem;
-    position: relative;
+  color: #2c3e50;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  position: relative;
 }
 
 .section-title::after {
-    content: '';
-    position: absolute;
-    bottom: -0.5rem;
-    left: 0;
-    width: 50px;
-    height: 3px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    border-radius: 7px;
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 7px;
 }
 
 @media screen and (max-width: 768px) {
-    .hero-section {
-        margin-right: 1rem;
-    }
-    .puppy-img, .cat-food-img {
-        width: 100px;
-        height: 80px;
-    }
-    .new-post-btn {
-        padding: 0.6rem 1.5rem;
-        font-size: 0.9rem;
-    }
-    .reply-count {
-        font-size: 0.5rem;
-    }
-    .comment{
-        flex-direction: column;
-        align-items: flex-start;
-        padding-top:20px;
-    }
-
-
-    
+  .hero-section {
+    margin-right: 1rem;
+  }
+  .puppy-img,
+  .cat-food-img {
+    width: 100px;
+    height: 80px;
+  }
+  .new-post-btn {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
+  }
+  .reply-count {
+    font-size: 0.5rem;
+  }
+  .comment {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 20px;
+  }
 }
 
-
-/* Login Page styling */
-.logo{
-    width: 45px; 
-    height: 45px;
+/* Login Page & Sign Up Page Styling*/
+.logo {
+  width: 45px;
+  height: 45px;
 }
 
-.hero-img{
-   object-position: center;
-    object-fit: cover;  
-    height: 100vh; 
-    width: 100%;
-    max-width: 100%;
+.hero-img {
+  object-position: center;
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+  max-width: 100%;
 }
-.login-card{
-    max-width: 420px;
+.login-card {
+  max-width: 420px;
 }
-.min-vh-100 { min-height: 100vh; }
+.min-vh-100 {
+  min-height: 100vh;
+}
