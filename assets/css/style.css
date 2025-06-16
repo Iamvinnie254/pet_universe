@@ -153,3 +153,22 @@
 
     
 }
+
+
+/* Login Page styling */
+.logo{
+    width: 45px; 
+    height: 45px;
+}
+
+.hero-img{
+   object-position: center;
+    object-fit: cover;  
+    height: 100vh; 
+    width: 100%;
+    max-width: 100%;
+}
+.login-card{
+    max-width: 420px;
+}
+.min-vh-100 { min-height: 100vh; }
